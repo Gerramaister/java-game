@@ -1,3 +1,5 @@
+Jag siktar på VG!
+
 När använder man add respektive commit?
 -Man använder add när man ska flytta något från working directory till staging area.
 -Man använder commit när man ska flytta något från staging area till lokalt repository.
@@ -14,3 +16,8 @@ Hur kan man formulera sig i sina commit-meddelanden?
 -De absolut bästa är att ge beskrivande information på sakerna man har gjort.
 t.ex. om man har skapat en fil som heter: test.txt
 så kan man skriva: created test.txt
+
+Sätt att rulla tillbaka kod till tidigare tillstånd.
+git reset - anväds för att backa till en viss commit men raderar även commits därimellan. Inte så bra om man vill bevara integriteten i sin commit history. Man kan även backa en fil från staging area till working directory.
+git checkout - anväds för att byta grenar eller för att radera ändringar i working directory.
+git revert - används för att backa till en viss commit utan att radera några commits, denna är att föredra för att bevara integriteten på commit history
