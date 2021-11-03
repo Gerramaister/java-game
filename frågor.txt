@@ -1,0 +1,16 @@
+När använder man add respektive commit?
+-Man använder add när man ska flytta något från working directory till staging area.
+-Man använder commit när man ska flytta något från staging area till lokalt repository.
+
+Vad är pull respektive push?
+-pull är när man hämtar något från remote repository.
+-push är när man skickar något till remote repository.
+
+När använder man log respektive status?
+-när man använder log så ser man hash-koder och commit meddelanden samt lite meta-data på commits man har gjort tidigare.
+-status använder man för att kolla så att allt är uppdaterat till repository.
+
+Hur kan man formulera sig i sina commit-meddelanden?
+-De absolut bästa är att ge beskrivande information på sakerna man har gjort.
+t.ex. om man har skapat en fil som heter: test.txt
+så kan man skriva: created test.txt
